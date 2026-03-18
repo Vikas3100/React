@@ -25,11 +25,29 @@
 //     )
 // }
 // export default  LogIn;
-function User(){
+// // Props in React Js
+// function User({main, main2}){
+    
+//     return (
+//         <div>
+//             <h1>Name: {main.name}</h1>
+//             <h1>Age: {main.age}</h1>
+//             <h1>E-mail: {main.email}</h1>
+            
+
+//         </div>
+//     )
+// }
+// export default User
+// // Props using Arrays
+
+function User({names}){
     return (
         <div>
-            <h1>Vikas Kumar Yadav</h1>
-
+            <h1> College: {names[0]}</h1>
+            <h1> College: {names[1]}</h1>
+            <h1> College: {names[2]}</h1>
+            <h1> College: {names[4]}</h1>
         </div>
     )
 }
